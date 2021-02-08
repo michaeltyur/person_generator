@@ -6,6 +6,14 @@
 */
 {
   "files": [],
+  "compilerOptions": {
+    "target": "esnext",
+      /* Experimental Options */
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      /* Advanced Options */
+      "forceConsistentCasingInFileNames": true
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"
